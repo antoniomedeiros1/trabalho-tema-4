@@ -5,10 +5,9 @@
 
 -- Query 1: Inner join entre Cliente e Locacao para obter informações sobre locações associadas a clientes
 SELECT * FROM Cliente
-INNER JOIN Locacao ON Cliente.IDCliente = Locacao.IDCliente
-WHERE HoraRealizacao >= '2023-10-01 00:00:00';
+INNER JOIN Locacao ON Cliente.IDCliente = Locacao.IDCliente;
 
--- Query 2: Inner join entre Locacao, Veiculo e ModeloVeiculo para obter informações completas sobre locações
+-- Query 2: Inner join entre Locacao, Veiculo e ModeloVeiculo para obter informações completas sobre as locações
 SELECT * FROM Locacao
 INNER JOIN Veiculo ON Locacao.IDVeiculo = Veiculo.IDVeiculo
 INNER JOIN ModeloVeiculo ON Veiculo.IDModeloVeiculo = ModeloVeiculo.IDModeloVeiculo;
