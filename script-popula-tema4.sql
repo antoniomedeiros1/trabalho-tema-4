@@ -9,7 +9,8 @@ INSERT INTO Cliente (idcliente, nome, sobrenome, cnh, telefone, email) VALUES
     (2, 'Maria', 'Santos', '987654321', '987654321', 'maria@email.com'),
     (3, 'José', 'Borges', '123356789', '123456789', 'jose@email.com'),
     (4, 'Ana', 'Barbosa', '987656321', '987654321', 'ana@email.com'),
-    (5, 'Mateus', 'Souza', '963258741', '988634851', 'mateus@email.com');
+    (5, 'Gabriel', 'Silva', '963258341', '988614821', 'gabriel@email.com'),
+    (6, 'Mateus', 'Souza', '963258741', '988634851', 'mateus@email.com');
 
 
 INSERT INTO ModeloVeiculo (idmodeloveiculo, marca, modelo, anolancamento, capacidadepassageiros, capacidadeportamalas) VALUES
